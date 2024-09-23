@@ -63,7 +63,7 @@ def main():
     st.write(config.APP_DESCRIPTION)
 
     # 사이드바에 자주 묻는 질문 추가
-    st.sidebar.title("자주 묻는 질문")
+    st.sidebar.title("자주 묻는 질문 (가상)")
     selected_faq = st.sidebar.radio("질문을 선택하세요:", FAQ_LIST)
 
     # 메인 영역
