@@ -1,0 +1,5 @@
+# 환경 변수 파일
+.env
+
+# Python 관련
+__pycache__/
