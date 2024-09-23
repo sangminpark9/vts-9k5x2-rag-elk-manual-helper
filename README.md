@@ -2,7 +2,7 @@
 
 > 이 프로젝트는 뷰웍스 제품 VTS-9K5X2의 User Manual을 기반으로 문장을 chunk화 하여 Open AI로 질문을 검색할 수 있는 프로젝트입니다.
 ## [실행해보기(링크클릭)](https://xdapwjpcvhssvjguj6gkxw.streamlit.app/)
-![image](https://github.com/user-attachments/assets/430de5de-162a-4219-96e1-b042444e2513)
+![image](https://github.com/user-attachments/assets/3db27d32-b92c-453a-96e4-19c28f87ac0c)
 
 # 실행화면
 https://github.com/user-attachments/assets/b1c0b90f-12e5-47d0-adf2-52d8d3101135
