@@ -15,8 +15,9 @@ https://github.com/user-attachments/assets/b1c0b90f-12e5-47d0-adf2-52d8d3101135
 
 <img width="655" alt="image" src="https://github.com/user-attachments/assets/50632f4a-3ad1-48cc-9b31-5c6e4e371cd1">
 
+# 임베딩된 105개 Chunk_index
 
-
+<img width="694" alt="image" src="https://github.com/user-attachments/assets/6294b2b1-b423-4ecd-b1dd-febbb8c580d2">
 
 ## 사용 방법
 1. 먼저, pdf_to_chunker.py 파일에서 ./data/manuals/메뉴얼.pdf, 메뉴얼 pdf를 chunk화 합니다.
