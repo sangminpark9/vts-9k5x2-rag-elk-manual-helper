@@ -2,7 +2,8 @@
 
 > 이 프로젝트는 뷰웍스 VTS-9K5X2 모델의 User Manual을 기반으로 문장을 chunk화 하여 Open AI로 질문을 검색할 수 있는 프로젝트입니다.
 ## [프로토타입 실행해보기(링크클릭)](https://xdapwjpcvhssvjguj6gkxw.streamlit.app/)
-> 현재 DB(엘라스틱서치) Localhost 연결로 인한
+1. 현재 DB(엘라스틱서치) Localhost 연결로 인한 내부동작 X
+
 ![image](https://github.com/user-attachments/assets/3db27d32-b92c-453a-96e4-19c28f87ac0c)
 
 # 실행화면
