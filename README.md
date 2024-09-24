@@ -11,6 +11,13 @@ https://github.com/user-attachments/assets/b1c0b90f-12e5-47d0-adf2-52d8d3101135
 ### 사용한 문서 : User_Manual_VTS-9K5X2_V1.5_EN.pdf
 ### 문서 출처 : [VIEWORKS Download Center](https://download.vieworks.com/main2?item_type=1&list_type=list&tag_list=)
 
+# 엘라스틱서치 / 인덱스 필드(Kinava)
+
+<img width="655" alt="image" src="https://github.com/user-attachments/assets/50632f4a-3ad1-48cc-9b31-5c6e4e371cd1">
+
+
+
+
 ## 사용 방법
 1. 먼저, pdf_to_chunker.py 파일에서 ./data/manuals/메뉴얼.pdf, 메뉴얼 pdf를 chunk화 합니다.
 (Chunk 결과는 json 형식으로 저장)
