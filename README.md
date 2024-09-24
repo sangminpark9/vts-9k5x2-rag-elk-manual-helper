@@ -1,7 +1,7 @@
 # vts-9k5x2-rag-elk-manual-helper
 
 > 이 프로젝트는 뷰웍스 VTS-9K5X2 모델의 User Manual을 기반으로 문장을 chunk화 하여 Open AI로 질문을 검색할 수 있는 프로젝트입니다.
-## [실행해보기(링크클릭)](https://xdapwjpcvhssvjguj6gkxw.streamlit.app/)
+## [실행해보기(링크클릭)/현재 DB(엘라스틱서치) 연결 불가](https://xdapwjpcvhssvjguj6gkxw.streamlit.app/)
 ![image](https://github.com/user-attachments/assets/3db27d32-b92c-453a-96e4-19c28f87ac0c)
 
 # 실행화면
