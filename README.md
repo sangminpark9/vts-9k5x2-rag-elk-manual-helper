@@ -19,6 +19,8 @@ https://github.com/user-attachments/assets/b1c0b90f-12e5-47d0-adf2-52d8d3101135
 
 # 임베딩된 105개 Chunk_index
 
+<img width="1410" alt="image" src="https://github.com/user-attachments/assets/907c0a97-0fe4-4a0b-9cf0-2d50c9c4d1e3">
+
 <img width="694" alt="image" src="https://github.com/user-attachments/assets/6294b2b1-b423-4ecd-b1dd-febbb8c580d2">
 
 ## 사용 방법
