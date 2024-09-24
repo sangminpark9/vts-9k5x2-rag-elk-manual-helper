@@ -114,6 +114,9 @@ def main():
         st.write("2. 사용할 GPT 모델을 선택하세요.")
         st.write("3. '답변 받기' 버튼을 클릭하면 AI가 답변을 생성합니다.")
         st.write("4. 생성된 답변과 참고한 정보를 확인하세요.")
+        st.write("사용한 문서 : User_Manual_VTS-9K5X2_V1.5_EN.pdf")
+        st.write("문서 출처 : [VIEWORKS Download Center](https://download.vieworks.com/main2?item_type=1&list_type=list&tag_list=)")
+
 
 if __name__ == "__main__":
     main()
