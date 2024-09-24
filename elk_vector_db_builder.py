@@ -1,5 +1,3 @@
-# elk_vector_db_builder_refined.py
-
 import json
 from elasticsearch import Elasticsearch, helpers
 from sentence_transformers import SentenceTransformer
