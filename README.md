@@ -101,7 +101,7 @@ def load_chunks(json_file):
   4. 기존 인덱스가 존재할 경우 삭제하고 새로 생성
   5. 각 청크를 벡터화하여 Elasticsearch에 저장
 
-# app.py 간단 설명
+# app.py 세부 설명
 
 ## 주요 기능
 1. **Elasticsearch 연결**: 환경 변수에서 Elasticsearch 호스트와 포트를 읽어와 연결합니다.
