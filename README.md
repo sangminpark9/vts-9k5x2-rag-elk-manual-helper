@@ -137,7 +137,7 @@ def load_chunks(json_file):
 3. "답변 받기" 버튼을 클릭하여 AI가 답변을 생성합니다.
 4. 생성된 답변과 참고한 정보를 확인합니다.
 
-# 추출된 5개 문장, tensorboard 활용 vector visualization
+# [향후해보고싶은 것]추출된 5개 문장, tensorboard 활용 vector visualization
 <img width="997" alt="image" src="https://github.com/user-attachments/assets/3f9c1195-0e5a-46dd-b836-5a9905df79a8">
 
 ```python
@@ -149,3 +149,5 @@ sentences = [
     "Proper lens cleaning is essential for optimal performance."
 ]
 ```
+> 예시로 5개 문장만 추출하여 vector를 시각화 해봤는데, 우선 PDF 전처리에 시간을 더 투자해야할 것 같다.
+> 예로 들면 PDF파일에 있는 표를 텍스트화 하는 것
