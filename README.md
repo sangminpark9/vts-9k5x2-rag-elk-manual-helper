@@ -140,3 +140,12 @@ def load_chunks(json_file):
 # 추출된 5개 문장, tensorboard 활용 vector visualization
 <img width="997" alt="image" src="https://github.com/user-attachments/assets/3f9c1195-0e5a-46dd-b836-5a9905df79a8">
 
+```python
+sentences = [
+    "The camera provides high-quality images.",
+    "Image resolution can be adjusted in the settings.",
+    "Trigger mode allows for precise timing of image capture.",
+    "The user manual contains important safety information.",
+    "Proper lens cleaning is essential for optimal performance."
+]
+```
