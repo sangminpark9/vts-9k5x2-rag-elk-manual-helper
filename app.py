@@ -8,6 +8,7 @@ import config
 # Load environment variables from .env file
 load_dotenv()
 
+ELASTICSEARCH_HOST = st.secrets["ELASTICSEARCH_HOST"]
 # Elasticsearch 연결
 es = Elasticsearch(config.ELASTICSEARCH_HOST)
 
