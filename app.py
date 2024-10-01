@@ -9,8 +9,7 @@ import config
 load_dotenv()
 
 # Elasticsearch 연결
-ELASTICSEARCH_HOST = st.secrets["ELASTICSEARCH_HOST"]
-es = Elasticsearch(ELASTICSEARCH_HOST)
+es = Elasticsearch(config.ELASTICSEARCH_HOST)
 
 # OpenAI API key 설정 (from .env)
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -53,7 +52,8 @@ def generate_answer(query, context, model):
             max_tokens=500,
             temperature=0.7
         )
-        return response['choices'][0]['message']['content']
+        # 새로운 API 방식에 맞게 수정
+        return response["choices"][0]["message"]["content"]
     except Exception as e:
         st.error(f"OpenAI API 오류: {str(e)}")
         return None
@@ -117,7 +117,6 @@ def main():
         st.write("4. 생성된 답변과 참고한 정보를 확인하세요.")
         st.write("사용한 문서 : User_Manual_VTS-9K5X2_V1.5_EN.pdf")
         st.write("문서 출처 : [VIEWORKS Download Center](https://download.vieworks.com/main2?item_type=1&list_type=list&tag_list=)")
-
 
 if __name__ == "__main__":
     main()
