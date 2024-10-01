@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Elasticsearch 연결
+ELASTICSEARCH_HOST = st.secrets["ELASTICSEARCH_HOST"]
 es = Elasticsearch(ELASTICSEARCH_HOST)
 
 # OpenAI API key 설정 (from .env)
