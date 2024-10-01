@@ -1,7 +1,7 @@
 # Elasticsearch 설정
-ELASTICSEARCH_HOST = "localhost"
+ELASTICSEARCH_HOST = "http://223.130.151.11:9200"
 ELASTICSEARCH_PORT = 9200
-ELASTICSEARCH_INDEX = "product_manuals"
+ELASTICSEARCH_INDEX = "manual_chunks"
 
 # RAG 모델 설정
 MODEL_NAME = "gpt-4"
