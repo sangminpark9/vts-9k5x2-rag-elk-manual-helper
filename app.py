@@ -3,13 +3,12 @@ import streamlit as st
 import openai
 from elasticsearch import Elasticsearch
 from dotenv import load_dotenv
-import config
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Elasticsearch 연결
-es = Elasticsearch(config.ELASTICSEARCH_HOST)
+es = Elasticsearch(ELASTICSEARCH_HOST)
 
 # OpenAI API key 설정 (from .env)
 openai.api_key = os.getenv("OPENAI_API_KEY")
