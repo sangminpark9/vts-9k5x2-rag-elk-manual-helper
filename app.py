@@ -9,7 +9,7 @@ import config
 load_dotenv()
 
 # Elasticsearch 연결
-es = Elasticsearch([f"http://{config.ELASTICSEARCH_HOST}:{config.ELASTICSEARCH_PORT}"])
+es = Elasticsearch(config.ELASTICSEARCH_HOST)
 
 # OpenAI API key 설정 (from .env)
 openai.api_key = os.getenv("OPENAI_API_KEY")
