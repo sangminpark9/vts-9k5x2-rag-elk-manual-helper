@@ -3,6 +3,7 @@ import streamlit as st
 import openai
 from elasticsearch import Elasticsearch
 from dotenv import load_dotenv
+import config
 
 # Load environment variables from .env file
 load_dotenv()
