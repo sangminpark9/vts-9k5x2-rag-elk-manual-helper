@@ -10,7 +10,7 @@ load_dotenv()
 
 ELASTICSEARCH_HOST = st.secrets["ELASTICSEARCH_HOST"]
 # Elasticsearch 연결
-es = Elasticsearch(config.ELASTICSEARCH_HOST)
+es = Elasticsearch(ELASTICSEARCH_HOST)
 
 # OpenAI API key 설정 (from .env)
 openai.api_key = os.getenv("OPENAI_API_KEY")
