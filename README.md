@@ -4,7 +4,8 @@
 # [실행해보기(링크클릭)](https://xdapwjpcvhssvjguj6gkxw.streamlit.app/)
 1. ~현재 DB(엘라스틱서치) Localhost 연결로 인한 내부동작 X~
 2. 엘라스틱서치 네이버 클라우드 서버 Open
-3. 정상 작동
+3. ~정상 작동~
+4. 네이버 클라우드 서버 Down
 
 ![image](https://github.com/user-attachments/assets/3db27d32-b92c-453a-96e4-19c28f87ac0c)
 
