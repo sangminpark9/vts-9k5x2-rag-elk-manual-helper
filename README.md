@@ -15,6 +15,35 @@ https://github.com/user-attachments/assets/b1c0b90f-12e5-47d0-adf2-52d8d3101135
 
 ### 사용한 문서 : User_Manual_VTS-9K5X2_V1.5_EN.pdf
 ### 문서 출처 : [VIEWORKS Download Center](https://download.vieworks.com/main2?item_type=1&list_type=list&tag_list=)
+## ✅ 프로젝트 요약
+
+**목표**: 뷰웍스 VTS-9K5X2 모델의 User Manual을 chunk화하여 OpenAI와 Elasticsearch 기반 검색 기능을 제공하는 프로젝트입니다.
+
+**결과**: PDF 메뉴얼의 텍스트를 청크로 분할해 Elasticsearch에 인덱스화하고, OpenAI API를 통해 사용자가 질문할 수 있는 시스템을 구축했습니다.
+
+**역할 및 기여도**: PDF 전처리 및 청크 생성, Elasticsearch 인덱싱, OpenAI API 통합 작업 전반을 수행했습니다.
+
+# 📒 상세 기술 및 라이브러리
+
+- Python: PDF 처리 및 청크 생성
+- Elasticsearch: 청크 인덱싱 및 벡터 저장
+- OpenAI API: 질문 답변 생성
+- Streamlit: 사용자 인터페이스 구현
+- pdflumber: PDF 텍스트 추출
+- sentence-transformers: 텍스트 벡터화
+- Docker: 컨테이너화된 환경에서 서비스 실행
+- Kibana: 데이터 시각화 및 검색
+# 🎯 담당 역할
+
+- PDF 처리 및 청크 생성: PDF에서 텍스트 추출 후 청크화하고 JSON으로 저장하는 로직 구현
+- Elasticsearch 인덱스 구성: Elasticsearch에 청크 데이터를 인덱싱하고 벡터화하여 검색 가능한 도록 설정
+- OpenAI 통합: OpenAI API와 연결하여 사용자가 질문한 내용을 기반으로 답변 생성
+- Streamlit 기반 UI 개발: 사용자가 쉽게 검색 및 질문할 수 있도록 직관적인 UI 설계
+# 💡 깨달은 점
+
+- PDF 처리에서 복잡성: 특히 표와 같은 복잡한 레이아웃의 텍스트를 처리하는 데 시간이 많이 걸렸고, 이를 개선하기 위해 추가적인 처리 로직이 필요함을 깨달았습니다.
+- Elasticsearch 사용의 한계: 사용되는 데이터의 볼륨이 클 경우 인덱싱하고 검색 성능을 높이기 위해 인덱스 및 벡터 저장 방식에 대한 이해를 높일 필요성을 느꼈습니다.
+
 
 # 엘라스틱서치 / 인덱스 필드(Kibava)
 
